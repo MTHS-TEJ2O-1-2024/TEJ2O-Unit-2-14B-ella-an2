@@ -28,6 +28,7 @@ input.onButtonPressed(Button.A, function () {
         basic.pause(500)
     }
 
+    // to light up the right column
     loopCounter = 0
     while (loopCounter <= 5) {
         sprite.set(LedSpriteProperty.Y, loopCounter)
@@ -35,6 +36,7 @@ input.onButtonPressed(Button.A, function () {
         basic.pause(500)
     }
 
+    // to light up the bottom row
     loopCounter = 4
     while (loopCounter >= 0) {
         sprite.set(LedSpriteProperty.X, loopCounter)
@@ -42,6 +44,7 @@ input.onButtonPressed(Button.A, function () {
         basic.pause(500)
     }
 
+    // to light up the left column
     loopCounter = 4
     while (loopCounter >= 0) {
         sprite.set(LedSpriteProperty.Y, loopCounter)
@@ -66,6 +69,7 @@ input.onButtonPressed(Button.B, function () {
         basic.pause(500)
     }
 
+    // to light up the bottom row
     loopCounter = 0
     while (loopCounter <= 5) {
         sprite.set(LedSpriteProperty.X, loopCounter)
@@ -73,6 +77,7 @@ input.onButtonPressed(Button.B, function () {
         basic.pause(500)
     }
 
+    // to light up the right column
     loopCounter = 4
     while (loopCounter >= 0) {
         sprite.set(LedSpriteProperty.Y, loopCounter)
@@ -80,6 +85,7 @@ input.onButtonPressed(Button.B, function () {
         basic.pause(500)
     }
 
+    // to light up the top row
     loopCounter = 4
     while (loopCounter >= 0) {
         sprite.set(LedSpriteProperty.X, loopCounter)
